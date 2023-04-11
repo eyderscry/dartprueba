@@ -1,0 +1,32 @@
+Algoritmo dado
+	definir Num_dado_T ,Cont_dado,Num_dado_1,Num_dado_2 ,Num_dado_3 Como entero
+	Cont_dado<-0
+	Num_dado_T<-0
+	Leer Num_dado_1,Num_dado_2 ,Num_dado_3;
+	//condicional para cada numero del dado obtenido
+	//revisando si el valor es 6
+	Si Num_dado_1=6 Entonces
+		Cont_dado<-Cont_dado+1
+	Fin Si
+	Si Num_dado_2=6 Entonces
+		Cont_dado<-Cont_dado+1
+	Fin Si
+	Si Num_dado_3=6 Entonces
+		Cont_dado<-Cont_dado+1
+	Fin Si
+	//condicion principal
+	Si Cont_dado=0 Entonces
+		Escribir "pesimo"
+	sino si Cont_dado=1 entonces
+			escribir "regular"
+		sino
+			si Cont_dado=2 Entonces
+				escribir "muy bien"
+			sino 
+				si Cont_dado=3 Entonces
+					escribir "excelente"
+				FinSi
+			FinSi
+		FinSi
+	finSi
+FinAlgoritmo

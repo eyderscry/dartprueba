@@ -1,0 +1,10 @@
+import math
+
+ban_ner = False
+while ban_ner == False:
+    Num_value = float(input("ingrese un numero : "))
+    if Num_value == 0:
+        break
+    Num_sqrt = math.sqrt(Num_value)
+    print("la raiz cuadrada de ",Num_value," es ",Num_sqrt)
+print("el programa a finalizado")

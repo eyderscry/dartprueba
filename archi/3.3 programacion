@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	definir num_a,num_b,num_c Como Entero
+	Escribir "escriba un valor para A "Sin Saltar
+	Leer num_a
+	Escribir "escriba un valor para B "Sin Saltar
+	Leer num_b
+	Escribir "escriba un valor para C "Sin Saltar
+	Leer num_c
+	
+FinAlgoritmo

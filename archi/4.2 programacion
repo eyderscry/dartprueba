@@ -1,0 +1,16 @@
+Algoritmo sin_titulo
+	definir Num_cont Como Entero
+	definir Num_value, Prom_value Como Real
+	Num_cont<-0;
+	Num_value<-0;//lee los numeros ingresados
+	Prom_value<-0;//contiene el valor del promedio
+	Escribir "ingrese un numero";
+	mientras Num_value>=0 Hacer
+		leer Num_value;
+		Prom_value<-Prom_value+Num_value;
+		Num_cont<-Num_cont+1
+	fin mientras
+	Num_cont<-Num_cont-1;
+	Prom_value<-Prom_value/Num_cont
+	Escribir "su promedio es ",Prom_value
+FinAlgoritmo

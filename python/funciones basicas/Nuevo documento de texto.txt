@@ -1,0 +1,16 @@
+print("actividad 1 : operaciones basicas \n")
+Num_value_a = int(input("ingrese valor para a = "))
+Num_value_b = int(input("ingrese valor para b = "))
+#print("\n")
+print("la suma es = ",Num_value_a + Num_value_b)
+print("la multiplicacion es = ",Num_value_a * Num_value_b)
+print("la resta es = ",Num_value_a - Num_value_b)
+print("la division es = ",Num_value_a / Num_value_b ,"\n")
+
+print("actividad 2 :  ingrese tres notas\n ")
+print("prueba")
+#Notas_value=0
+print("actividad 3 : el cubo de un numero ")
+Num_cube = int(input("ingrese el valor a calcular = "))
+Num_cu = Num_cube*3
+print("el cubo ",Num_cube ,"^ 3 =",Num_cu ,"\n")

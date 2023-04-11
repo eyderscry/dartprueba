@@ -1,0 +1,12 @@
+Algoritmo sin_titulo
+	definir nom_1 Como Caracter
+	definir cont Como Entero
+	Escribir "escriba su nombre"
+	Leer nom_1
+	Escribir "¿cuantas veces quiere repetirlo?"
+	Leer cont
+	Mientras cont <> 0 Hacer
+		Escribir nom_1
+		cont=cont - 1
+	Fin Mientras
+FinAlgoritmo

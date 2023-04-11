@@ -1,0 +1,6 @@
+Algoritmo sin_titulo
+	definir num_1 Como Entero
+	Escribir "escriba un numero de tres cifras"
+	Leer num_1
+	lon_num_1=0
+FinAlgoritmo

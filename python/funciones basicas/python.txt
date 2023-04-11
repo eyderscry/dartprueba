@@ -1,0 +1,13 @@
+print("you enter a number to verify highest \n")
+Num_a = int(input("your enter a number = "))
+Num_b = int(input("your enter another number = "))
+if Num_a != Num_b:
+    if Num_a < Num_b:
+        print("the value ",Num_b," is greater than ",Num_a)
+    else :
+        print("the value ",Num_a," is greater than ",Num_b)
+else:
+    print("you entered the same number")
+
+
+input()
